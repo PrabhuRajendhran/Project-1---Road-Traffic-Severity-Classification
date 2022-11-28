@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 import os
 
-model = joblib.load(os.path.join(r"G:\TMLC MGP Nov 2022\Project 1 - Road Traffic Severity Classification\Model", "model.joblib"))
+model = joblib.load(os.path.join(r"Model", "model.joblib"))
 print(model)
 
 #creating option list for dropdown menu
