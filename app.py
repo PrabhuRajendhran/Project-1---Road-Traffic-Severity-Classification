@@ -3,7 +3,6 @@ import joblib
 import os
 
 model = joblib.load(os.path.join(r"Model", "model.joblib"))
-print(model)
 
 #creating option list for dropdown menu
 options_day = ['Sunday', "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
